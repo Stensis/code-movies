@@ -44,7 +44,7 @@ function Navbar() {
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/" style={{ paddingLeft: "80px" }}>
-                  Features
+                  Add movie
                 </a>
               </li>
               <li class="nav-item">

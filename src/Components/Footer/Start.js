@@ -14,8 +14,8 @@ function Start() {
             </a>
           </ul>
           <ul>
-            <a className="text-decoration-none text-white" href="/event">
-              Events
+            <a className="text-decoration-none text-white" href="/pricing">
+              Pricing
             </a>
           </ul>
           <ul>
