@@ -3,7 +3,10 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-dark" style={{backgroundColor:"black"}}>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark"
+        style={{ backgroundColor: "black" }}
+      >
         <div class="container-fluid">
           <a
             class="navbar-brand"
@@ -16,8 +19,7 @@ function Navbar() {
               fontWeight: "800",
               textTransform: "uppercase",
               transform: "perspective(300px) rotateX(-25deg)",
-              paddingLeft:"30px"
-
+              paddingLeft: "30px"
             }}
           >
             Code Movies
@@ -43,7 +45,7 @@ function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/" style={{ paddingLeft: "80px" }}>
+                <a class="nav-link" href="/add" style={{ paddingLeft: "80px" }}>
                   Add movie
                 </a>
               </li>

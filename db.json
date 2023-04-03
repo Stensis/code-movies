@@ -1,0 +1,114 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "image": "https://images.unsplash.com/photo-1609785918985-0a077bac81b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "year": 1994,
+      "genre": [
+        "Drama"
+      ],
+      "director": "Frank Darabont",
+      "actors": [
+        "Tim Robbins",
+        "Morgan Freeman"
+      ],
+      "rating": 9.3
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "image": "https://images.unsplash.com/photo-1585951237318-9ea5e175b891?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1vdmllfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
+      "year": 1972,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "director": "Francis Ford Coppola",
+      "actors": [
+        "Marlon Brando",
+        "Al Pacino"
+      ],
+      "rating": 9.2
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "image": "https://images.unsplash.com/photo-1536012544458-686fb865dad9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFzdCUyMG9mJTIwdXN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "year": 2008,
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "director": "Christopher Nolan",
+      "actors": [
+        "Christian Bale",
+        "Heath Ledger",
+        "Aaron Eckhart"
+      ],
+      "rating": 9
+    },
+    {
+      "id": 4,
+      "title": "The Lord of the Rings: The Return of the King",
+      "image": "https://images.unsplash.com/photo-1678503226596-608ce8f51852?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJlYXV0aWZ1bCUyMG1vdmllfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "year": 2003,
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "director": "Peter Jackson",
+      "actors": [
+        "Elijah Wood",
+        "Viggo Mortensen",
+        "Ian McKellen"
+      ],
+      "rating": 8.9
+    },
+    {
+      "id": 5,
+      "title": "Pulp Fiction",
+      "image": "https://plus.unsplash.com/premium_photo-1664910054666-8b530b2a1655?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGJlYXV0aWZ1bCUyMG1vdmllfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "year": 1994,
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "director": "Quentin Tarantino",
+      "actors": [
+        "John Travolta",
+        "Uma Thurman",
+        "Samuel L. Jackson"
+      ],
+      "rating": 8.9
+    },
+    {
+      "id": 6,
+      "title": " Fiction",
+      "image": "https://images.unsplash.com/photo-1496861083958-175bb1bd5702?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "year": 1994,
+      "genre": [
+        "Drama"
+      ],
+      "director": "Quentin Tarantino",
+      "actors": [
+        "John Travolta",
+        "Uma Thurman",
+        "Samuel L. Jackson"
+      ],
+      "rating": 8.9
+    },
+    {
+      "title": "json",
+      "director": "irene",
+      "genre": "comedy",
+      "actor": "jane",
+      "year": "2023",
+      "image": "https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "rating": "12",
+      "id": 7
+    }
+  ]
+}
