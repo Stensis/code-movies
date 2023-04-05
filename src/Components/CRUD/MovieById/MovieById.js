@@ -33,7 +33,7 @@ function MovieById() {
       <div style={{ textAlign: "center", color: "blue" }}>
         {" "}
         <a href="/" className="card-text text-decoration-none">
-          <span style={{ color: "blue" }}> ⬅️ </span>
+          <span style={{ color: "blue",marginTop:"10px" }}> ⬅️ </span>
           Go Back
         </a>
       </div>
@@ -75,21 +75,20 @@ function MovieById() {
                   </div>
                   <div class="col align-self-end">
                     <Delete />
-                  
                   </div>
                 </div>
                 <div class="col align-self-center ">
-                    <Link to="/updating">
+                  <Link to="/updating">
+                    {" "}
+                    <button
+                      class="btn btn-outline-warning"
+                      style={{ marginLeft: "315px" }}
+                    >
                       {" "}
-                      <button
-                        class="btn btn-outline-warning"
-                        style={{ marginLeft: "315px" }}
-                      >
-                        {" "}
-                        Update
-                      </button>
-                    </Link>
-                  </div>
+                      Update
+                    </button>
+                  </Link>
+                </div>
               </div>
 
               <img

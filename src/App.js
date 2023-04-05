@@ -7,6 +7,7 @@ import Delete from "./Components/CRUD/Delete/Delete";
 import PageNotFound from "./Components/PageNotFound";
 import WatchTrailer from "./Components/CRUD/MovieById/WatchTrailer";
 import Play from "./Components/CRUD/MovieById/Play";
+import Pricing from "./Components/Pricing/Pricing";
 // import Updating from "./Components/CRUD/Updating/Updating";
 // import UpdateButton from "./Components/CRUD/Updating/UpdateButton";
 
@@ -25,6 +26,8 @@ function App() {
 {/* 
         <Route exact path="/update" element={<UpdateButton />} />
         <Route exact path="/updating" element={<Updating />} /> */}
+        <Route exact path="/pricing" element={<Pricing />} />
+
 
       </Routes>
     </div>

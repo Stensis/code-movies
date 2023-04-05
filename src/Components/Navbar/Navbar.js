@@ -50,7 +50,7 @@ function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/" style={{ paddingLeft: "80px" }}>
+                <a class="nav-link" href="/pricing" style={{ paddingLeft: "80px" }}>
                   Pricing
                 </a>
               </li>
