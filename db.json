@@ -16,22 +16,6 @@
       "rating": 9.3
     },
     {
-      "id": 2,
-      "title": "The Godfather",
-      "image": "https://images.unsplash.com/photo-1585951237318-9ea5e175b891?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1vdmllfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=400&q=60",
-      "year": 1972,
-      "genre": [
-        "Crime",
-        "Drama"
-      ],
-      "director": "Francis Ford Coppola",
-      "actors": [
-        "Marlon Brando",
-        "Al Pacino"
-      ],
-      "rating": 9.2
-    },
-    {
       "id": 3,
       "title": "The Dark Knight",
       "image": "https://images.unsplash.com/photo-1536012544458-686fb865dad9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFzdCUyMG9mJTIwdXN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
@@ -85,29 +69,23 @@
       "rating": 8.9
     },
     {
-      "id": 6,
-      "title": " Fiction",
-      "image": "https://images.unsplash.com/photo-1496861083958-175bb1bd5702?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "year": 1994,
-      "genre": [
-        "Drama"
-      ],
-      "director": "Quentin Tarantino",
-      "actors": [
-        "John Travolta",
-        "Uma Thurman",
-        "Samuel L. Jackson"
-      ],
-      "rating": 8.9
+      "title": "solid",
+      "director": "fefwe",
+      "genre": "comedy",
+      "actor": "sue",
+      "year": "2018",
+      "image": "https://images.unsplash.com/photo-1612082452372-cad8932cdc31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "rating": "7",
+      "id": 6
     },
     {
-      "title": "json",
-      "director": "irene",
-      "genre": "comedy",
-      "actor": "jane",
-      "year": "2023",
-      "image": "https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "rating": "12",
+      "title": "clouds in sky",
+      "director": "hillary",
+      "genre": "Nature",
+      "actor": "kimata",
+      "year": "2019",
+      "image": "https://images.unsplash.com/photo-1612505890061-5235f9f9e3a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "rating": "7",
       "id": 7
     }
   ]

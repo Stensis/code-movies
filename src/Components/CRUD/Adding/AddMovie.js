@@ -1,23 +1,37 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import "./AddMovieCard.css";
 
-function AddMovieCard(props) {
-  const [title, setTitle] = useState([]);
-  const [director, setDirector] = useState([]);
-  const [genre, setGenre] = useState([]);
-  const [actor, setActor] = useState([]);
-  const [year, setYear] = useState([]);
-  const [image, setImage] = useState([]);
-  const [rating, setRating] = useState([]);
+function AddMovieCard() {
+  const [title, setTitle] = useState("");
+  const [director, setDirector] = useState("");
+  const [genre, setGenre] = useState("");
+  const [actor, setActor] = useState("");
+  const [year, setYear] = useState("");
+  const [image, setImage] = useState("");
+  const [rating, setRating] = useState("");
   // const [loading, setLoading] = useState([]);
 
-  const navigate = useNavigate;
+  // const navigate = useNavigate;
 
   // handle submit function
   const handleSubmit = (e) => {
     // prevents the page from refreshing
     e.preventDefault();
+
+    // check for empty fields
+    // if (
+    //   !title ||
+    //   !director ||
+    //   !genre ||
+    //   !actor ||
+    //   !year ||
+    //   !image ||
+    //   !rating
+    // ) {
+    //   alert("Please fill in all fields.");
+    //   return;
+    // }
 
     // movie object
     const movie = {
@@ -27,7 +41,7 @@ function AddMovieCard(props) {
       actor,
       year,
       image,
-      rating,
+      rating
       // loading
     };
 
@@ -41,7 +55,6 @@ function AddMovieCard(props) {
     }).then(() => {
       console.log("new movie added succesfully");
       // setLoading(false);
-      navigate("/");
     });
   };
 
@@ -138,7 +151,7 @@ function AddMovieCard(props) {
                 name="actors"
                 placeholder="Enter ators"
                 value={actor}
-                onChange={(e) =>setActor(e.target.value)}
+                onChange={(e) => setActor(e.target.value)}
               />
             </div>
             <div className="form-group">
@@ -157,14 +170,16 @@ function AddMovieCard(props) {
               <button
                 type="submit"
                 className="btn btn-dark"
-                style={{ backgroundColor: "teal" }}
+                style={{ backgroundColor: "teal", color: "white" }}
               >
-                Submit
+                <a
+                  href="/"
+                  className="text-decoration-none"
+                  style={{ color: "black" }}
+                >
+                  Submit
+                </a>
               </button>
-              {/* <div>
-            {!loading && <input id="button" type="submit" value="Create" />}
-            {loading && <input id="button" type="submit" value="Adding " />}
-          </div> */}
             </div>
           </form>
         </div>
