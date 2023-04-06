@@ -8,6 +8,7 @@ import PageNotFound from "./Components/PageNotFound";
 import WatchTrailer from "./Components/CRUD/MovieById/WatchTrailer";
 import Play from "./Components/CRUD/MovieById/Play";
 import Pricing from "./Components/Pricing/Pricing";
+import About from "./Components/AboutUs/About";
 // import Updating from "./Components/CRUD/Updating/Updating";
 // import UpdateButton from "./Components/CRUD/Updating/UpdateButton";
 
@@ -27,6 +28,7 @@ function App() {
         <Route exact path="/update" element={<UpdateButton />} />
         <Route exact path="/updating" element={<Updating />} /> */}
         <Route exact path="/pricing" element={<Pricing />} />
+        <Route exact path="/aboutUs" element={<About />} />
 
 
       </Routes>

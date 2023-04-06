@@ -50,53 +50,59 @@ function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/pricing" style={{ paddingLeft: "80px" }}>
+                <a
+                  class="nav-link"
+                  href="/pricing"
+                  style={{ paddingLeft: "80px" }}
+                >
                   Pricing
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/" style={{ paddingLeft: "80px" }}>
+              {/* <li class="nav-item">
+                <a class="nav-link" href="/aboutUs" style={{ paddingLeft: "80px" }}>
                   About Us
                 </a>
-              </li>
-              <li class="nav-item dropdown">
+              </li> */}
+
+              <li class="nav-item dropdown" style={{ paddingLeft: "80px" }}>
                 <a
                   class="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
                   href="/"
                   role="button"
-                  aria-haspopup="true"
+                  data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  style={{ paddingLeft: "80px" }}
+                  style={{paddingRight:"40px"}}
                 >
-                  Account
+                  <img
+                    src="https://images.unsplash.com/photo-1551802568-a741a8c5664f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGd5bSUyMGdpcmx8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                    alt="Avatar"
+                    style={{
+                      width: "40px",
+                      height: "40px",
+                      borderRadius: "50%"
+                    }}
+                  />
+                  User Name
                 </a>
-                <div class="dropdown-menu bg-info">
-                  {/* <div class="dropdown-divider"></div> */}
-                  <a class="dropdown-item" href="/">
-                    Separated link
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="/">
-                    Separated link
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="/">
-                    Separated link
-                  </a>
-                </div>
+                <ul class="dropdown-menu" style={{ paddingRight: "10px" }}>
+                  <li>
+                    <a class="dropdown-item" href="account">
+                     My Account
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/helpCenter">
+                      Help Center
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/helpCenter">
+                      Log-out
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
-            {/* <form class="d-flex">
-              <input
-                class="form-control me-sm-2"
-                type="search"
-                placeholder="Search"
-              />
-              <button class="btn btn-secondary my-2 my-sm-0" type="submit">
-                Search
-              </button>
-            </form> */}
           </div>
         </div>
       </nav>
